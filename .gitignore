@@ -1,0 +1,73 @@
+# Ignore node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ignore build output
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore compiled files (C/C++)
+*.out
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+.venv/
+venv/
+env/
+
+# Ignore backups
+*~
+*.bak
+
+# Ignore compressed archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore specific app configs
+package-lock.json
